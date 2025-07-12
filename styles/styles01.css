@@ -1,0 +1,84 @@
+
+.raleway-normal> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.header-img{
+    background-image: url(../assets/hero-bg.png)
+    
+}
+.header-align{
+    justify-content: center;
+}
+.navigation-top{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 150px;
+    
+    
+
+}
+
+.main-logo{
+    margin: 40px 120px;
+}
+
+
+.button{
+    background-color: #4E47FF;
+    border-radius: 5px;
+    margin: 50px 150px;
+    color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+}
+
+
+.navigation-head{
+    text-align: center;
+    max-width: 1440px;
+    max-height: 700px;
+    /* justify-content: center; */
+    align-items: center;
+}
+.navigation-text{
+    font-size: 65px;
+    font-weight: 800px;
+    max-width: 905px;
+    max-height: 152px;
+    margin: auto;
+}
+
+.banner{
+    display: flex;
+    justify-content:space-between;
+    margin: 0px 160px;
+    gap: 50px;
+    max-height: 200px;
+    background-image: url(../assets/wc-mini.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    text-align: left;
+}
+.banner-img{
+    /* display: right; */
+}
+
+.banner-div{
+/* display: flex; */
+}
+
+.heighlight-part{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+.heighlight-head{
+    align-items: center;
+}
