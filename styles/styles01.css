@@ -6,9 +6,12 @@
     "wdth" 100;
 }
 
+body{
+    background-color: rgba(245, 248, 255, 1);
+}
+
 .header-img{
     background-image: url(../assets/hero-bg.png)
-    
 }
 .header-align{
     justify-content: center;
@@ -17,16 +20,10 @@
     display: flex;
     justify-content: space-between;
     margin: 30px 150px;
-    
-    
-
 }
-
 .main-logo{
     margin: 40px 120px;
 }
-
-
 .button{
     background-color: #4E47FF;
     border-radius: 5px;
@@ -36,26 +33,26 @@
     font-size: 16px;
 }
 
-
 .navigation-head{
     text-align: center;
     max-width: 1440px;
     max-height: 700px;
-    /* justify-content: center; */
     align-items: center;
+    margin: 10px 250px;
 }
 .navigation-text{
     font-size: 65px;
     font-weight: 800px;
     max-width: 905px;
     max-height: 152px;
-    margin: auto;
+    margin: 10px 250px;
+    
 }
 
 .banner{
     display: flex;
     justify-content:space-between;
-    margin: 0px 160px;
+    margin: 0px 250px;
     gap: 50px;
     max-height: 200px;
     background-image: url(../assets/wc-mini.png);
@@ -63,6 +60,7 @@
     background-repeat: no-repeat;
     border-radius: 10px;
     text-align: left;
+    
 }
 .banner-img{
     /* display: right; */
@@ -87,12 +85,13 @@
 
 .heighlight-head{
     background-color: rgba(78, 71, 255, 0.1);
-    max-width: 1440px;
+    justify-items: center;
+    max-width: 1400px;
     max-height: 500px;
-    justify-content: center;
     align-items: center;
-    margin: 10px 10px;
+    margin: 50px 250px;
     padding: 10px;
+    text-align: center;
 }
 .item-title{
     color: #4E47FF;
@@ -139,7 +138,7 @@
     font-size: 50px;
     font-weight: 700;
     text-align: center;
-}
+    }
 
 .description-main{
     text-align: center;
@@ -150,7 +149,9 @@
     margin: 20px 450px ;
 }
 .started-free{
-    align-content: center;
+    
+    text-align: center;
+    border-radius: 5px;
   
 }
 
@@ -162,7 +163,7 @@ align-items: center;
 .footer-display{
 
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     gap: 10px;
 } 
 
@@ -170,12 +171,29 @@ align-items: center;
     margin: 10px;
     padding: 10px;
     gap: 10px;
-border: none;
-width: 100%;
-height: 20px;}
+    border: 5px;
+    width: 100%;
+    height: 20px;}
 
 .footer-header{
     font-size: 87px;
     font-weight: 800;
     max-width: 528px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.footer-end{
+    text-align: center;
+    max-width: 400px;
+    align-items: center;
+    margin: auto;
+}
+
+.footer-nav{
+    display: flex;
+    margin: auto;
+    gap: 10px;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-around;
+    max-width: 400px;
 }
