@@ -1,5 +1,4 @@
-
-.raleway-normal> {
+.open-sans-raleway {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -79,6 +78,45 @@
     gap: 50px;
 
 }
-.heighlight-head{
+.about-item{
+    align-items: right;
+    margin: 10px 141px;
+    justify-content: space-around;
     align-items: center;
+}
+
+.heighlight-head{
+    background-color: rgba(78, 71, 255, 0.1);
+    max-width: 1440px;
+    max-height: 500px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    padding: 10px;
+}
+.item-title{
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: 700;
+}
+.item-description{
+    color:rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+
+.head-heading{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+}
+.heighlight-part{
+    gap: 5px;
+}
+.Reviewer{
+    display: flex;
+    text-align: left;
+    gap: 20px;
+    align-items: center;
+    margin: auto;
+    display: block;
 }
